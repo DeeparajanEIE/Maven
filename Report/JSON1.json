@@ -1,0 +1,372 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "My Store Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;my-store-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49575499200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "Step_Defenition1.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8491447200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Click The SignIn Button And It Navigates To The Login Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_SignIn_Button_And_It_Navigates_To_The_Login_Page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Login Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 253929500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter The \"kutydeepak@gmail.com\" In Email Address Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kutydeepak@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Defenition1.user_Enter_The_In_Email_Address_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260360301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter The \"deepak111\" In Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deepak111",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Defenition1.user_Enter_The_In_Password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5014681599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Click The Signin Button And It Navigaes to My Account Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Signin_Button_And_It_Navigaes_to_My_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "My Account Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;my-account-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 307916999,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Select The Dress Type",
+            "match": {
+              "location": "Step_Defenition1.user_Select_The_Dress_Type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13131648000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Click The Casual Dresses Button And It Navigates To The casual Dress Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Casual_Dresses_Button_And_It_Navigates_To_The_casual_Dress_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Cassual Dress Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;cassual-dress-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 249151800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user ScrollDown And Select The Particular Dress",
+            "match": {
+              "location": "Step_Defenition1.user_ScrollDown_And_Select_The_Particular_Dress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122163800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Click The Add To Cart Button And It Opens A Proceed To CheckOut Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Add_To_Cart_Button_And_It_Opens_A_Proceed_To_CheckOut_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9270425000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Click The Proceed To CheckOut Button And It Navigates To Order Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Proceed_To_CheckOut_Button_And_It_Navigates_To_Order_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Order Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;order-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241021900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Increase The Quantity In Quantity Field",
+            "match": {
+              "location": "Step_Defenition1.user_Increase_The_Quantity_In_Quantity_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3279302401,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Click The Proceed To CheckOut Button And It Navigates To Order Address Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Proceed_To_CheckOut_Button_And_It_Navigates_To_Order_Address_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Order Address Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;order-address-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2287121101,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user Click The Proceed To CheckOut Button And It Navigates To Order Shipping Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Proceed_To_CheckOut_Button_And_It_Navigates_To_Order_Shipping_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Order Shipping Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;order-shipping-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168715899,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user Accept The Terms And Condition And Click The Box",
+            "match": {
+              "location": "Step_Defenition1.user_Accept_The_Terms_And_Condition_And_Click_The_Box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2655718801,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user Click The Proceed To CheckOut Button And It Navigates To Order Payment Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Proceed_To_CheckOut_Button_And_It_Navigates_To_Order_Payment_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Order Payment Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;order-payment-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1883354000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user Click The Pay By Bank Wire Button And It Navigates To The Order Confirm Page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_Pay_By_Bank_Wire_Button_And_It_Navigates_To_The_Order_Confirm_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Order Confirm Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-practice-application;order-confirm-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5275526300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user Click The I Conform My Order button And It Navigates To Confirmation page",
+            "match": {
+              "location": "Step_Defenition1.user_Click_The_I_Conform_My_Order_button_And_It_Navigates_To_Confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@Test9"
+          }
+        ]
+      }
+    ],
+    "name": "Dress Purchase In Automation Practice Application",
+    "description": "",
+    "id": "dress-purchase-in-automation-practice-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature_file/Automation.feature"
+  }
+]
